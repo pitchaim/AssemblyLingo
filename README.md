@@ -1,5 +1,5 @@
 # AssemblyLingo
-The classic guessing game Lingo, written in MIPS assembly language.
+The classic guessing game Lingo, written in MIPS assembly language as part of a CS course assignment.
 If, for some reason, you actually want to run this, get a decent MIPS assembler. I use [MARS](http://courses.missouristate.edu/KenVollmar/mars/), a simulated assembler packaged to run on JVM that does a nice job.
 
 *Written June 2016, uploaded September 2016 (AIM)*
