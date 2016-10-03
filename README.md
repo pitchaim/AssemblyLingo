@@ -6,7 +6,7 @@ If, for some reason, you actually want to run this, get a decent MIPS assembler.
 
 ## An in-depth functionality description, for anyone brave or bored enough to dive in...
 
-1. Structure:
+Structure:
 
 - Words are stored as both upper-case and lower-case word-aligned ASCII strings
 - Welcome message and instruction ("the word to guess is: ") are printed
@@ -18,7 +18,5 @@ If, for some reason, you actually want to run this, get a decent MIPS assembler.
 - If character "held" by "CHECK" is not found to be in right place, an inner loop (EACH) then compares the character against each other character in the chosen word (except the character at the same index). If any other character is equal to the current one, a "right-character-wrong-place" message is displayed and EACH is broken, allowing CHECK to increment to the next character.
 - If the RCRP counter is found to be greater than 4 by LOOP, then the game is ended and a "win" message displayed. If the LOOP counter is found to be greater than 4, the game is ended and a "losing" message is displayed.
 - Players are given the option to play again by entering "yes", or may exit by entering "no".
-
-2. There are no known bugs; everything is functioning as expected at most recent testing.
 
 -6/26/2016
